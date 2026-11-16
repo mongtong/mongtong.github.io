@@ -13,12 +13,12 @@
 <section class="s" data-t="iris" data-folio="Cover">
   <div class="abs outline drift" data-a="scale" style="right:110px;top:130px;font:800 780px/1 var(--serif);color:var(--red)">武</div>
   <div class="abs" style="left:120px;top:150px;width:1600px">
-    <div class="kicker" data-a="up">Mong Tong × A Long Shot Studios · 2026</div>
+    <div class="kicker" data-a="up">Mong Tong · 2026</div>
     <h1 class="h-xxl kin" style="margin-top:44px;font-size:200px;width:1150px;max-width:none">A Musical <span class="it accent">Scorebook</span></h1>
   </div>
   <div class="abs" style="left:120px;bottom:120px;width:1000px">
     <div class="rule thick" data-a="line" style="width:140px;margin-bottom:30px;color:var(--red)"></div>
-    <p class="lede" data-a="up">A selection of Mong Tong's work across games, film, fashion, and interdisciplinary projects, presented for a period martial-arts feature in the spirit of the Shaw Brothers.</p>
+    <p class="lede" data-a="up">A selection of Mong Tong's work across games, film, fashion, and interdisciplinary projects.</p>
   </div>
 </section>
 <section class="s" data-t="whip" data-folio="Contents">
@@ -418,7 +418,7 @@ function render(){
   SL.forEach((s,i)=>{
     const n=String(i+1).padStart(2,'0');
     const m=document.createElement('div');m.className='mast';
-    m.innerHTML='<span>Mong Tong <b>Scorebook</b></span><span>Period Martial Arts · Music</span><span>for A Long Shot Studios</span>';
+    m.innerHTML='<span>Mong Tong <b>Scorebook</b></span><span>Period Martial Arts · Music</span><span>mongtong.bandcamp.com</span>';
     s.prepend(m);
     const f=document.createElement('div');f.className='folio';
     f.innerHTML='<span>'+(s.dataset.folio||'')+'</span><span>P.'+n+' / '+N+'</span>';
